@@ -8,7 +8,7 @@ pipeline{
 		}
 	stage('parallel-level'){
 		parallel{
-			stage('sub-job1'){
+			stage('sub-job1 abisola'){
 				steps{
 					echo "sub-job1 task"
 				}
