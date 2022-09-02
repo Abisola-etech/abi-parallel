@@ -19,8 +19,9 @@ pipeline{
 				}
 			}
 			stage('webhook'){
-				steps{
-				echo "just trying the 3rd line"
+				step{
+					 echo "just trying the 3rd line"
+				]
 			}
 		}
 	}
