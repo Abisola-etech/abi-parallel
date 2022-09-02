@@ -25,5 +25,10 @@ pipeline{
 			echo "end of parallel job"
 		}
 	}
+	stage('usercheck'){
+		steps{
+			sh 'cat /etc/passwd | grep Jenkins'
+		}
+	}
 	}
 }
